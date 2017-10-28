@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600'>
+
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  
+</head>
+
+<body>
+  <div class="cont_principal">
+
+  <div class="cont_centrar">
+  <div class="cont_login">
+    <form action="">
+    <div class="cont_tabs_login">
+      <ul class='ul_tabs'>
+        <li class="active"><a >Stranger Tools</a>
+        <span class="linea_bajo_nom"></span>
+        </li>
+      </ul>
+      </div>
+  <div class="cont_text_inputs">
+      
+      
+   
+    
+     
+<div class="terms_and_cons d_none">
+    
+  
+    </div>
+      </div>
+<div class="cont_btn">
+    <button class="btn_sign_tool" onclick="allOn()" >Turn All Lights On</button>
+    <button class="btn_sign_tool" onclick="allOff()" >Turn All Lights Off</button>
+    <button class="btn_sign_tool" onclick="blink()" >Blink</button>
+      
+      </div>
+      
+    </form>
+    </div>
+    
+  </div>
+  
+
+</div>
+  
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+
+</body>
+</html>

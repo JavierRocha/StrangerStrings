@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600'>
+
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  
+</head>
+
+<body>
+  <div class="cont_principal">
+
+  <div class="cont_centrar">
+  <div class="cont_login">
+    <form action="">
+    <div class="cont_tabs_login">
+      <ul class='ul_tabs'>
+        <li class="active"><a >Stranger Strings</a>
+        <span class="linea_bajo_nom"></span>
+        </li>
+      </ul>
+      </div>
+  <div class="cont_text_inputs">
+      
+      <button class="btn_tool" onclick="allOn()" id="allOn">Turn All Lights On</button>
+      <button class="btn_tool" onclick="allOff()" id="allOff">Turn All Lights Off</button>
+    <input type="text" class="input_form_sign d_block active_inp" placeholder="Enter Message" name="message" id="message" />
+
+    
+    
+     
+<div class="terms_and_cons d_none">
+    
+  
+    </div>
+      </div>
+<div class="cont_btn">
+     <button class="btn_sign" onclick="sendMessage()" >Send</button>
+      
+      </div>
+      
+    </form>
+    </div>
+    
+  </div>
+  
+
+</div>
+  
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+
+</body>
+</html>
